@@ -6,35 +6,6 @@
     box-sizing: border-box;
 }
 
-p {
-    font-size: 1rem;
-    text-align: center;
-    padding: 2rem;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-a {
-    font-size: larger;
-    text-decoration: none;
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-li {
-    list-style: none;
-}
-
-h4 {
-    padding: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h2 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    animation-duration: 3s;
-    animation-name: aparecer;
-    animation-iteration-count: infinite;
-}
 
 input {
     padding: 8px;
@@ -428,6 +399,11 @@ input {
     justify-content: space-around;
 }
 
+.productos {
+    display: flex;
+    justify-content: space-around;
+}
+
 .card {
     transition: 0.3s;
     width: 100%;
@@ -457,11 +433,6 @@ input {
 
 .card button:hover {
     border: #05243b solid 3px;
-}
-
-.productos {
-    display: flex;
-    justify-content: space-around;
 }
 
 #contacto {

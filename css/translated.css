@@ -1,0 +1,23 @@
+li {
+  list-style: none; }
+  li a {
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+div p {
+  font-size: 1rem;
+  text-align: center;
+  padding: 2rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+div h4 {
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+div h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite; }
