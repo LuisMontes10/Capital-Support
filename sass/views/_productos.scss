@@ -84,5 +84,6 @@
 }
 
 .card button:hover {
+    @extend .card;
     border: #05243b solid 3px;
 }

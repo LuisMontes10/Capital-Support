@@ -112,12 +112,7 @@ input {
     height: 99%;
 }
 
-.vertical {
-    width: 20px;
-    word-wrap: break-word;
-    text-align: center;
-}
-
+.vertical,
 .vertical2 {
     width: 20px;
     word-wrap: break-word;
@@ -125,8 +120,7 @@ input {
 }
 
 .imagen1 {
-    width: 1fr;
-    height: 1fr;
+    @include sizes (width,  height);
     transform: rotateZ(360deg);
     transition: transform 1.5s;
     opacity: 0.9;
@@ -190,4 +184,129 @@ input {
     margin: 0px;
     padding: 0.6rem;
     font-size: 20px;
+}
+
+#index {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 1px;
+}
+
+.baner {
+    grid-column: 1 / 13;
+    grid-row: 1;
+}
+
+.hr1 {
+    grid-column: 1 / 13;
+    grid-row: 2;
+}
+
+.h2 {
+    grid-column: 2 / 11;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr2 {
+    grid-column: 2 / 11;
+    grid-row: 4;
+}
+
+.parrafo1 {
+    grid-column: 2 / 6;
+    grid-row: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #edede9;
+}
+
+.tenisf2 {
+    grid-column: 6 / 11;
+    grid-row: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #546a7b;
+}
+
+.parrafo2 {
+    grid-column: 7 / 11;
+    grid-row: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #edede9;
+}
+
+.tenisf1 {
+    grid-column: 2 / 7;
+    grid-row: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #546a7b;
+}
+
+.menu2 {
+    grid-column: 3 / 6;
+    grid-row: 7;
+}
+
+.vertical {
+    grid-column: 12;
+    grid-row: 5 / 6;
+}
+
+.vertical2 {
+    grid-column: 1;
+    grid-row: 6 / 7;
+}
+
+.header {
+    grid-column: 11 / 13;
+    grid-row: 6 / 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo2 {
+    grid-column: 12;
+    grid-row: 8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
+
+.redes {
+    grid-column: 12;
+    grid-row: 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
+
+.mapa {
+    grid-column: 2 / 11;
+    grid-row: 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edede9;
 }

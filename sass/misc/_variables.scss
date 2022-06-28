@@ -6,3 +6,14 @@
     $font-principal: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     $font-title: 'Times New Roman', Times, serif;
 
+    $redes: (/*Declaramos nuestro mapa*/
+    instagram:#d0432a,
+    facebook:#3a5795
+    
+    );
+    /*Creamos el bucle para usar los valores del mapa*/
+    @each $red, $color in $redes {
+    .btn--#{$red}{
+    background-color:$color;
+}
+}
