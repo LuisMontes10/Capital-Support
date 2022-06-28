@@ -1,9 +1,11 @@
+/*NOSOTROS*/
+
 #nosotros {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 1fr;
     grid-gap: 5px;
-    background-color: #edede9;
+    background-color: $primary;
 }
 
 .nosotros {
@@ -25,7 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #546a7b;
+    background-color: $secondary;
 }
 
 .vision1 {
@@ -48,7 +50,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #546a7b;
+    background-color: $secondary;
 }
 
 .mision1 {
