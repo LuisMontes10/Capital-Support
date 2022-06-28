@@ -1,33 +1,16 @@
+/*MISC*/
+@import "./misc/variables";
+@import "./misc/normalize";
+@import "./misc/mixins";
 
 
-li {
-    list-style: none;
+/*PARTIALS*/
+@import "./partials/header";
+@import "./partials/footer";
 
-a {
-    font-size: larger;
-    text-decoration: none;
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-}
-
-div {
-p {
-    font-size: 1rem;
-    text-align: center;
-    padding: 2rem;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-h4 {
-    padding: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h2 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    animation-duration: 3s;
-    animation-name: aparecer;
-    animation-iteration-count: infinite;
-}
-}
+/*VIEWS*/
+@import "./views/home";
+@import "./views/contacto";
+@import "./views/galeria";
+@import "./views/nosotros";
+@import "./views/productos";

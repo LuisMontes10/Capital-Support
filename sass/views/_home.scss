@@ -1,0 +1,31 @@
+li {
+    list-style: none;
+
+a {
+    font-size: larger;
+    text-decoration: none;
+    color: $text-color;
+    font-family: $font-principal;
+}
+}
+
+div {
+p {
+    font-size: 1rem;
+    text-align: center;
+    padding: 2rem;
+    font-family:$font-title;
+}
+
+h4 {
+    padding: 20px;
+    font-family:$font-title;
+}
+
+h2 {
+    font-family: $font-principal;
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+}

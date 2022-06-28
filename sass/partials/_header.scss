@@ -1,0 +1,12 @@
+header { list-style: none;
+    li {
+        list-style: none;
+    }
+    
+    a {
+        font-size: larger;
+        text-decoration: none;
+        color: $text-color;
+        font-family: $font-principal;
+    }
+}
