@@ -1,0 +1,77 @@
+#nosotros {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 5px;
+    background-color: #edede9;
+}
+
+.nosotros {
+    grid-column: 2 / 12;
+    grid-row: 2;
+    text-align: center;
+}
+
+.banernosotros {
+    grid-column: 2 / 12;
+    grid-row: 3;
+    text-align: center;
+}
+
+.nosotros1 {
+    grid-column: 2 / 7;
+    grid-row: 4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #546a7b;
+}
+
+.vision1 {
+    grid-column: 7 / 12;
+    grid-row: 4;
+    text-align: center;
+}
+
+.vision {
+    grid-column: 7 / 12;
+    grid-row: 4;
+    display: flex;
+    align-items: center;
+}
+
+.nosotros2 {
+    grid-column: 7 / 12;
+    grid-row: 5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #546a7b;
+}
+
+.mision1 {
+    grid-column: 2 / 7;
+    grid-row: 5;
+    text-align: center;
+}
+
+.mision {
+    grid-column: 2 / 7;
+    grid-row: 5;
+    display: flex;
+    align-items: center;
+}
+
+#footern {
+    grid-column: 5 / 9;
+    grid-row: 6;
+}
+
+.ft-legaln {
+    grid-column: 4 / 10;
+    grid-row: 7;
+    display: flex;
+    justify-content: space-around;
+}
