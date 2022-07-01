@@ -1,5 +1,12 @@
-/*HOME*/
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital@1&family=Roboto+Slab:wght@300&family=Roboto:ital,wght@0,300;1,400&display=swap');
 
+
+/*HOME*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 li {
     list-style: none;
 
@@ -309,4 +316,85 @@ input {
     justify-content: center;
     align-items: center;
     background-color: #edede9;
+}
+
+/*MEDIA QUERIS*/
+
+@media screen and (max-width: 768px) {
+
+    #index,
+    #menuheader1 {
+        display: block;
+        text-align: center;
+    }
+
+    img {
+        width: 25%;
+    }
+
+    .logo2,
+    .redes,
+    .vertical,
+    .vertical2,
+    .header {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 2300px) {
+
+    #productos #galeria #menuheader {
+        display: block;
+        text-align: center;
+        position: relative;
+    }
+
+    #galeria .f1 {
+        width: 25%;
+    }
+
+    li {
+        display: block;
+        background: #edede9;
+        margin: 0;
+        padding: 10px;
+        list-style: none;
+        border-bottom: 1px solid grey;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+
+    #contacto,
+    #nosotros,
+    #menuheader {
+        display: block;
+        text-align: center;
+        position: relative;
+    }
+
+    .productos {
+        display: block;
+        width: 98%;
+    }
+
+   img {
+        width: 25%;
+    }
+
+    .banernosotros,  .imagencontacto img
+     {
+        width: 100%;
+    }
+    
+
+    li {
+        display: block;
+        background: #edede9;
+        margin: 0;
+        padding: 10px;
+        list-style: none;
+        border-bottom: 1px solid grey;
+    }
 }
