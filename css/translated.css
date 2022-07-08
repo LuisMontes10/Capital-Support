@@ -2,10 +2,10 @@
 /*Creamos el bucle para usar los valores del mapa*/
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital@1&family=Roboto+Slab:wght@300&family=Roboto:ital,wght@0,300;1,400&display=swap");
 .btn--instagram {
-  background-color: #d0432a; }
+  background-color: #edede9; }
 
 .btn--facebook {
-  background-color: #3a5795; }
+  background-color: #edede9; }
 
 .box {
   height: 100%;
@@ -140,13 +140,11 @@ input {
   width: 1fr;
   height: 1fr;
   transform: rotateY(360deg);
-  transition: transform 1.5s;
-  opacity: 0.9; }
+  transition: transform 1.5s; }
 
 .tenisf2:hover,
 .tenisf1:hover {
-  transform: rotateX(0deg);
-  opacity: 1; }
+  transform: rotateX(0deg); }
 
 .banernosotros:hover {
   width: 1fr;
@@ -221,8 +219,13 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
-  background-color: #546a7b; }
+  background-color: #546a7b;
+  width: 1fr;
+  height: 1fr;
+  object-fit: cover;
+  border: #546a7b solid 3px;
+  padding: 0.25rem;
+  border-radius: 20px; }
 
 .parrafo2 {
   grid-column: 7 / 11;
@@ -239,8 +242,13 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
-  background-color: #546a7b; }
+  background-color: #546a7b;
+  width: 1fr;
+  height: 1fr;
+  object-fit: cover;
+  border: #546a7b solid 3px;
+  padding: 0.25rem;
+  border-radius: 20px; }
 
 .menu2 {
   grid-column: 3 / 6;
@@ -284,11 +292,10 @@ input {
 
 .mapa {
   grid-column: 2 / 11;
-  grid-row: 7;
+  grid-row: 9;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: #edede9; }
+  align-items: center; }
 
 /*MEDIA QUERIS*/
 @media screen and (max-width: 768px) {
@@ -556,6 +563,8 @@ input {
   .productos {
     display: block;
     width: 98%; }
+  .productos2, .productos3 {
+    display: none; }
   img {
     width: 25%; }
   .banernosotros, .imagencontacto img {
