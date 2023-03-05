@@ -2,10 +2,10 @@
 /*Creamos el bucle para usar los valores del mapa*/
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital@1&family=Roboto+Slab:wght@300&family=Roboto:ital,wght@0,300;1,400&display=swap");
 .btn--instagram {
-  background-color: #edede9; }
+  background-color: #ffffff; }
 
 .btn--facebook {
-  background-color: #edede9; }
+  background-color: #ffffff; }
 
 .box {
   height: 100%;
@@ -76,14 +76,14 @@ input {
 
 #menuheader1 {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   align-items: center;
   text-align: center;
   background-color: #edede9; }
 
 #menuheader {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   position: fixed;
   align-items: center;
   text-align: center;
@@ -91,7 +91,6 @@ input {
   font-size: 1rem; }
 
 #footerg,
-#footerp,
 #footerc,
 #footern {
   display: grid;
